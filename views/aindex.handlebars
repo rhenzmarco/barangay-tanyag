@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="customers">
+    <fieldset class="customer-fields">
+      <legend class="customer-legends">
+        &ensp;<strong><h1>A N N O U N C E M E N T S</h1></strong>
+      </legend>
+      <div class="container">
+        {{#each data}}
+        <div class="row">
+          <div class="col-md-12">
+            <div class="customer-contents">
+              _____________________________________________________
+              <div class="customer-contents2">
+                <li><b>Name:</b> {{this.name }}</li>
+                <li><b>Description:</b> {{this.description}}</li>
+                <li><b>Tagline:</b> {{this.tagline}}</li>
+                <li><b>Image:</b> <img src="{{image}} " style=" height:50px; width:50px;"><img src="{{image1}} " style=" height:50px; width:50px;"><img src="{{image2}} " style=" height:50px; width:50px;"></li>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </fieldset>
+  </div>
+</div>

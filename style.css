@@ -1,0 +1,276 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	color: #000000;
+	background-color: #ffffff;
+}
+#mainNav {
+	height: 110px;
+	padding: 30px;
+	background-color: #000066;
+}
+.items {
+	position: relative;
+	display: inline-block;
+}
+.brand-img {
+	width: 500px;
+}
+.cover {
+	width: 100%;
+	height: 700px;
+}
+.divider {
+	background-color: #fff;
+	height: 50px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.mesg {
+	text-align: center;
+}
+.mesg-pg {
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+.items {
+	font-size: 16px;
+	color: #fff;
+}
+.items a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+.dropdown {
+	margin-top: 9px;
+	margin-left: 10px;
+	margin-right: 10px;
+} 
+.ft {
+	background-color: #333333;
+	margin-top: 200px;
+	margin-bottom: 20px;
+	padding: 50px;
+	text-align: center;
+	color: #ffffff;
+}
+.foot-txt {
+	color: #cccccc;
+}
+.msg-box {
+	margin-top: 50px;
+	text-align: justify;
+	padding-right: 100px;
+	background-color: ;
+}
+.note-msg {
+
+}
+.pic {
+	padding-left: 100px;
+}
+.content-con {
+	margin: auto;
+	padding: 20px;
+	padding-bottom: 50px;
+	width: 80%;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 10px 3px #999999;
+}
+.title-txt {
+	text-align: center;
+	color:  #ffffff;
+	padding: 5px;
+	font-weight: bold;
+	text-shadow: 1.5px 2.1px 2.5px #000000 !important;
+	margin-bottom: 50px;
+	background: linear-gradient(to right, #3366ff, #000066) !important;
+}
+.mis-title {
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+.mis-txt {
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.vis-title {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.vis-txt {
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.history-txt {
+	text-align: justify;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.history-img {
+	width: 400px;
+	height: 250px;
+	float: left;
+	display: block;
+	margin-right: 25px;
+}
+.caption-txt {
+	text-align: left;
+	margin-top: 50px;
+}
+.prof-hr {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.prof-loc {
+	text-align: justify;
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+.bold {
+	font-weight: bold;
+}
+.map-img {
+	width: 45%;
+	height: 450px;
+	margin-left: 25%;
+
+}
+.txt-center {
+	text-align: center;
+}
+.capt {
+	color: #0000cc;
+	text-align: center;
+}
+.capt-caption {
+	color: #000000;
+	text-align: center; 
+}
+.council {
+	margin-top: 60px;
+	color: #000000;
+	text-align: center;
+}
+.name-cs {
+	color: #0000cc;
+	text-align: center;
+}
+.tres-caption {
+	color: #000000;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.announce-con1 {
+	width: 100%;
+	padding: 10px;
+	margin-left: 50px;
+}
+.announce-con2 {
+	width: 80%;
+	padding: 10px;
+	margin-left: 50px;
+	margin-top: 150px;
+	height: 100px;
+}
+.ann-box {
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 10px 3px #999999;
+}
+.ann-box2 {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 10px 3px #999999;
+}
+.ann-img {
+	width: 60%;
+	max-height: 300px;
+	border-color: ;
+}
+.ann-title {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.news-img {
+	max-width: 500px;
+	max-height: 300px;
+}
+.img-con {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.news-head {
+	background-color: #000066;
+	padding: 10px;
+	color: #ffffff;
+}
+.txt-news  {
+	text-align: center;
+	padding: 10px;
+}
+.contact-head {
+	background-color: #000066;
+	color: #ffffff;
+	padding: 10px;
+}
+.contact-item {
+	text-align: left;
+	font-weight: bold;
+}
+.contem-box {
+	padding: 10px;
+}
+.dropdown-btn {
+	color: #ffffff;
+	font-size: 16px;
+	padding: 15px;
+}
+.dropdown-content a {
+	color: #000000;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+.dropdown-content a:hover {
+	color: blue;
+	text-decoration: none;
+}
+.dropdown-btn a:hover {
+	color: red;
+	text-decoration-style: none;
+}
+.items:hover .dropdown-content {
+	display: block;
+}
+.article-box {
+	padding: 30px;
+	align-content: center;
+}
+.full-img {
+	max-width: 450px; 
+	max-height: 250px;
+	margin: 0 auto;
+}
+.img-box {
+	margin: 20px;
+}
+.full-article {
+	padding: 20px;
+	font-style: justify;
+}
+.article-p {
+	text-transform: capitalize;
+}

@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="customers">
+    <fieldset class="customer-fields">
+      <legend class="customer-legends">
+        &ensp;<strong><h1>E M E R G E N C Y   H O T L I N E S</h1></strong>
+      </legend>
+      <div class="container">
+        {{#each data}}
+        <div class="row">
+          <div class="col-md-12">
+            <div class="customer-contents">
+              _____________________________________________________
+              <div class="customer-contents2">
+                <li><b>Name:</b> {{this.name }}</li>
+                <li><b>Contact Number:</b> {{this.contactno}}</li>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </fieldset>
+  </div>
+</div>
