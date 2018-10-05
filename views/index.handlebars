@@ -29,7 +29,6 @@
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAML77AE_tseCt2GzcQPQP1pgELmllgSaU&callback=myMap"></script>
 <style>
-
 html {
 	width: 100%;
 	height: 100%;
@@ -53,6 +52,12 @@ body {
 .cover {
 	width: 100%;
 	height: 700px;
+}
+.slide-top {
+	margin-top: 115px;
+}
+.slide-margin {
+	margin-top: 150px;
 }
 .divider {
 	background-color: #fff;
@@ -236,22 +241,13 @@ a {
 	text-align: center;
 }
 .news-img {
-	max-width: 500px;
+	width: 100%;
 	max-height: 300px;
 }
 .img-con {
 	margin-top: 30px;
 	margin-bottom: 20px;
 }
-	.footer {
-	  right: 0;
-	  bottom: 0;
-	  left: 0;
-	  padding: 1rem;
-	  color: white;
-	  background-color: #272727;
-	  text-align: center;
-	}
 .news-head {
 	background-color: #000066;
 	padding: 10px;
@@ -300,10 +296,30 @@ a {
 	padding: 30px;
 	align-content: center;
 }
-.full-img {
-	max-width: 450px; 
-	max-height: 250px;
-	margin: 0 auto;
+.full-img1 {
+	width: 30%; 
+	height: 200px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.full-img2 {
+	width: 30%;
+	height: 200px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.full-img3 {
+	width: 30%;
+	height: 200px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.img-holder {
+	background-color: red;
+	border: 20px;
 }
 .img-box {
 	margin: 20px;
@@ -311,10 +327,15 @@ a {
 .full-article {
 	padding: 20px;
 	font-style: justify;
+	overflow: auto;
+	clear: none;
 }
 .article-p {
 	text-transform: capitalize;
+	font-style: justify;
 }
+* {box-sizing:border-box}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -345,66 +366,35 @@ a {
 </style>
 </head>
 
-{{!-- <body id="page-top">
 
-
-	<!-- NAVIGATION -->
-<nav class="navbar navbar-default navbar-expand-sm fixed-top" id="mainNav">
-  <!-- Brand/logo -->
-  <a class="navbar-brand" href="#">
-    <img class="brand-img" src="/header.png" alt="logo">
-  </a>
-  
-  <!-- Links -->
-  <ul class="nav navbar-nav">
-    <li class="nav-item active items">
-		<a class="nav-link dropdown-btn" href="/">HOME<span class="sr-only">(current)</span></a>
-	</li>
-    <li class="dropdown items">
-		<a class="dropdown-toggle dropdown-btn" data-toggle="dropdown" href="#">ABOUT</a>
-			<ul class="dropdown-menu dropdown-content">
-				<li><a href="/about/mission">MISSION AND VISION</a></li><br>
-				<li><a href="/about/history">HISTORY OF BARANGAY</a></li><br>
-				<li><a href="/about/barangayprofile">BARANGAY PROFILE</a></li><br>
-				<li><a href="/about/purok">PUROK/SUBDIVISION</a></li>
-			</ul>
-	</li>
-    <li class="dropdown items">
-		<a class="dropdown-toggle dropdown-btn" data-toggle="dropdown" href="#">GOVERNMENT<span class="caret"></span></a>
-			<ul class="dropdown-menu down dropdown-content">
-				<li><a href="/government/electedofficials">ELECTED OFFICIALS</a></li><br>
-				<li><a href="/government/ngo">NGO</a></li>
-			</ul>
-	</li>
-    <li class="dropdown items">
-		<a class="dropdown-toggle dropdown-btn" data-toggle="dropdown" href="#">EDUCATION<span class="caret"></span></a>
-			<ul class="dropdown-menu dropdown-content">
-				<li><a href="/school/elementary">ELEMENTARY SCHOOLS</a></li><br>
-				<li><a href="/school/highschool">SECONDARY SCHOOLS</a></li><br>
-				<li><a href="/school/preschool">PRE-SCHOOLS</a></li>
-			</ul>
-	</li>
-  </ul>
-</nav>
-
-
-<div class="container-fluid">
-		
-	
-		<div class="row">
+<div class="row">
 			<div class="col-md-12">
 				<div class="container-fluid">
-					<img class="cover" src="cover.png">
+					<!-- Slideshow container -->
+					  <!-- Full-width images with number and caption text -->
+					  <div class="mySlides">
+					    <img src="/cover.png" style="width:100%;height:600px">
+					  </div>
+
+					   <div class="mySlides">
+					    <img src="/sample5.jpg" style="width:100%;height:600px">
+					  </div>
+
+					   <div class="mySlides">
+					    <img src="/sample6.jpg" style="width:100%;height:600px">
+					  </div>
+
+					   <div class="mySlides">
+					    <img src="/sample3.jpg" style="width:100%;height:600px">
+					  </div>
+
+					   <div class="mySlides">
+					    <img src="/sample4.jpg" style="width:100%;height:600px">
+					  </div>
+
 				</div>
 			</div>
 		</div>
- --}}  <div class="row">
-      <div class="col-md-12">
-        <div class="container-fluid">
-          <img class="cover" src="/cover.png">
-        </div>
-      </div>
-    </div>
 
   
 		<div class="row">
@@ -429,11 +419,11 @@ a {
 							</div>
 							<div class="col-sm-6">
 								<div class="img-con" align="center">
-									<h3 class="news-head">{{name}} 1</h3>
+									<h3 class="news-head">{{name}} </h3>
 								</div>
 								<div align="center">
 									<p class="txt-" style="text-align:justify;">{{tagline}}</p>
-									<a href= " /announcement/{{id}}" > <strong>see more >>></strong> </a>
+									<a class="btn btn-md btn-primary" href= " /announcement/{{id}}" >See more</a>
 								</div>
 							</div>
 						</div>
